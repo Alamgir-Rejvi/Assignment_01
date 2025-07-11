@@ -107,3 +107,10 @@ p.bannar-btn a {
 }
 
 /* touch */
+#touch-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 60px 40px;
+
+}
