@@ -16,14 +16,26 @@ header {
 }
 
 #logo {
-    color: #3829e4;
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
 }
 
-#logo button a {
+
+#logo:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+
+.hbtn {
     text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.hbtn:hover{
+    background-color: aliceblue;
+    color: brown;
 }
 
 
@@ -42,6 +54,13 @@ p.bannar-btn {
 p.bannar-btn a {
     text-decoration: none;
 }
+
+
+p.bannar-btn a:hover{
+    background-color: rgb(40, 146, 238);
+    color: brown;
+}
+
 
 /* action part */
 #action-container {
@@ -118,6 +137,9 @@ p.bannar-btn a {
 
 
 /* footer */
+footer{
+    height: 200px;
+}
 #flogo {
     text-align: center;
     color: #3829e4;
@@ -134,5 +156,10 @@ p.bannar-btn a {
     text-decoration: none;
     margin: 15px 20px 10px;
     color: #000;
+}
+
+.a:hover{
+    background-color: aquamarine;
+    color: #3829e4;
 }
 
